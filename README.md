@@ -71,7 +71,7 @@ Basically I took a quick look at how the original program drew the line with the
 
 ![alt text](https://raw.githubusercontent.com/JeremyGruszka/ECE382_Lab3/master/reqFunc1.jpg "first try")
 
-This made me chuckle because it was so obviously wrong.  After studying my code, I realized that I had created an infinite loop because I was not decrementing R5, my counting register.
+That thumb nail needs to be trimmed!  This made me chuckle because it was so obviously wrong.  After studying my code, I realized that I had created an infinite loop because I was not decrementing R5, my counting register.
 
 After fiving this mistake, I ran the program again.  This is what I got the second time through:
 
@@ -81,7 +81,7 @@ Wrong again, but closer this time.  After studying my code, I realized I was sti
 
 ![alt text](https://raw.githubusercontent.com/JeremyGruszka/ECE382_Lab3/master/recFunc3.jpg "required functionality")
 
-It worked!  That is a beautiful 8 by 8 pixel block!  Required functionality accomplished!
+It worked!  That is a beautiful 8 by 8 pixel block!  Required functionality accomplished!  Shortly after snapping this picture, I was called by Derek Zoolander and asked if I would like to join him and his model friends as a thumb model.  Great success!
 
 ####Conclusions/Results
 
