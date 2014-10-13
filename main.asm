@@ -1,8 +1,8 @@
 ;-------------------------------------------------------------------------------
-;	Chris Coulston
+;	Jeremy Gruszka
 ;	Fall 2014
 ;	MSP430G2553
-;	Draw a new vertical bar on the Nokia 1202 display everytime that SW3
+;	Draw a 8 by 8 pixel square on the Nokia 1202 display everytime that SW3
 ;	is pressed and released.
 ;-------------------------------------------------------------------------------
 	.cdecls C,LIST,"msp430.h"		; BOILERPLATE	Include device header file
