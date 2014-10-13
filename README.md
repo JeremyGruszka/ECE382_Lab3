@@ -19,20 +19,20 @@ Here is that table:
 
 |__Line__|__R12__|__R13__|__Purpose__|
 |:-----|:-----|:-----|:-----|
-|||||
-|||||
-|||||
-|||||
+|66|1h|E7h|Draws a vertical bar with 2 spaces in the middle|
+|276|0h|B1h|mask out any weird upper nibble bits and mask in "B0" as the prefix for a page address|
+|288|0h|10h|mask out upper nibble, 10 is the prefix for a upper column address|
+|294|0h|0h|Write a command, setup call to make a copy of the top of the stack|
 
 I was also tasked with filling in this table.  This is what I had to do: "Configure the logic analyzer to capture the waveform generated when the SW3 button is pressed and released. Decode the data bits of each 9-bit waveform by separating out the MSB, which indicates command or data. Explain how the packet contents correspond to what was drawn on the display. Be specific with the relationship between the data values and what and where the pixels are drawn"
 Here is that table:
 
 |__Line__|__Command/Data__|__8-Bit Packet__|
 |:-----|:-----|:-----|
-||||
-||||
-||||
-||||
+|66|write/E7h|11100111|
+|276|read/B1h|10110001|
+|288|read/10h|00010000|
+|294|read/0h|00000000|
 
 Finally, I had to go into paint and fill in the following picture to show different writing modes:
 
