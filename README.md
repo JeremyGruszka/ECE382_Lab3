@@ -38,6 +38,20 @@ Finally, I had to go into paint and fill in the following picture to show differ
 
 ![alt text](https://raw.githubusercontent.com/JeremyGruszka/ECE382_Lab3/master/paint.PNG "Paint")
 
+####Logic Analyzer
+
+Here is the logic analyzer after running the code:
+
+![alt text](https://raw.githubusercontent.com/JeremyGruszka/ECE382_Lab3/master/logic1.jpg "Logic 1")
+
+There was a time gap of 1.65 micro seconds.
+
+Here is the logic analyzer after running the reset:
+
+![alt text](https://raw.githubusercontent.com/JeremyGruszka/ECE382_Lab3/master/logic2.jpg "Logic 2")
+
+There was a time gap of 1.94 micro seconds.
+
 ####Required Functionaly Code
 
 Here is my code I wrote to get required functionality for the lab.  It is a whopping 7 lines long.
@@ -85,5 +99,8 @@ It worked!  That is a beautiful 8 by 8 pixel block!  Required functionality acco
 
 ####Conclusions/Results
 
+After a few trials, I was able to run my code and get a 8 by 8 pixel box to show up on the Nokia display. Thus I know that my code and program worked.
+
+I would like to work with the logic analyzer again to better understand how it works and what we can do with it.
 
 Documentation:  Class notes and handouts, Lab 3 handout, My previous work and labs
